@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day22_exe01.html</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        ul{
+            width: 1000px;
+            height: 1000px;
+            background-color: palevioletred;
+            position: relative;
+            font-size: 72px;
+            }
+        ul:hover>li:nth-child(3){
+            font-size: 150px;
+            bottom: 500px;
+        }
+        ul>li{
+            width: 500px;
+            height: 500px;
+            position: absolute;
+        }
+        ul>li:nth-child(1){
+            background-color: palegoldenrod;
+            z-index: 1;
+            top: 0px;
+            transition: all 0.5s;
+            }
+        ul:hover>li:nth-child(1){
+            top: 500px;
+        }
+        ul>li:nth-child(2){
+            background-color: palegreen;
+            margin: auto;
+            top: 0px;
+            right: 0px;
+            left: 0px;
+            bottom: 0px;
+            z-index: 0;
+            transition: all 0.5s;
+           }
+           ul:hover>li:nth-child(2){
+               width: 250px;
+               height: 250px;
+               z-index: 3;
+           }
+        ul>li:nth-child(3){
+            background-color: paleturquoise;
+            bottom: 0px;
+            right: 0px;
+            transition: all 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <h3>1</h3>
+        </li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+</body>
+</html>
