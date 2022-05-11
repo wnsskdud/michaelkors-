@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>michaelkors_sub2.html</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/xeicon.min.css">
+    <link rel="stylesheet" href="./css/michaelkors_sub2.css">
+    <link rel="stylesheet" href="./css/michaelkors_sub2_tab.css" media="(max-width:1024px) and (min-width:0px)">
+    <link rel="stylesheet" href="./css/michaelkors_sub2_M.css" media="(max-width:420px) and (min-width:0px)">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function(){
+            var i = 0;
+            var wd = $(window).width();
+            var mv = 0;
+
+            if(wd > 1024){
+                mv = 33;
+            }else{
+                mv = 50;
+            }
+            
+            $('.cnt02>div.btn>i').eq(0).click(function(){
+                i--;
+                if(i <= 0){
+                    i = 0;
+                }
+                if(i == 0){
+                    $(this).css('opacity',0+'%');
+                    $('.cnt02>div.btn>i').eq(1).css('opacity',100+'%');
+                }
+                $('.artGroup').css('margin-left',i*-mv+'%');
+            });
+            $('.cnt02>div.btn>i').eq(1).click(function(){
+                i++;
+                if(i >= 1){
+                    i = 1;
+                }
+                if(i == 1){
+                    $(this).css('opacity',0+'%');
+                    $('.cnt02>div.btn>i').eq(0).css('opacity',100+'%');
+                }
+                $('.artGroup').css('margin-left',i*-mv+'%');
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- 메뉴탑 -->
+    <div class="mntWrap">
+        <div class="menuTop">
+            <div class="info">
+                <h4><i class="xi-search"></i></h4>
+                <h4>+82 (2) 1664 8254</h4> 
+                <h4>find a store</h4>
+            </div>
+            <ul class="nav">
+                <li>login</li>
+                <li><i class="xi-heart-o"></i></li>
+                <li><i class="xi-market"></i></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 헤더 -->
+    <div class="hdrWrap">
+        <div class="header">
+            <div class="image"><a href="./michaelkors_main.html"></a></div>
+            <ul class="nav">
+                <li><a href="./michaelkors_sub2.html">issue</a></li>
+                <li><a href="./michaelkors_sub1.html">gift</a></li>
+                <li><a href="./michaelkors_sub3.html">store</a></li>
+                <li><i class="xi-bars"></i></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 컨텐츠1 -->
+    <div class="cntWrap">
+        <div class="content cnt01">
+            <div class="header">
+                <div class="image"></div>
+                <div class="texts">
+                    <h2>아샤 X 마이클코어스</h2>
+                    <p>마이클은 40주년 기념 행사의 일환으로 떠오르는 브랜드에 주목하고 싶었습니다. 그는 브루클린에 본사를 둔 브랜드인 ASHYA를 선택하여 고급스러움에 대한 비전을 공유했습니다. 그 결과 세련되고 헤리티지 스타일이 어우친 독특한 가방과 현대적인 무브먼트를 위한 실용적인 디테일이 조화를 이루고 있습니다. </p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="article">
+                    <div class="image"></div>
+                    <div class="texts">
+                        <p>핵심은, 우리 둘 다 빠른 속도의 삶을 따라갈 수 있지만, 특별하게 느껴지는 작품들을 만들고 싶어합니다</p>
+                        <h4>- 마이클코어스</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 컨텐츠2 -->
+    <div class="cntWrap">
+        <div class="content cnt02">
+            <div class="header">
+                <h2>아샤 X 마이클코어스</h2>
+                <h5>아샤와 마이클코어스 두개의 브랜드가 합쳐진 특별한 제품들을 만나보세요.</h5>
+            </div>
+            <div class="section">
+                <div class="artGroup">
+                    <div class="article">
+                        <div class="image i1"></div>
+                        <div class="texts">
+                            <h4><span>[아샤x마이클코어스]</span> 사가 시그니처 볼로 백 ▶</h4>
+                            <h4>490,000원</h4>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="image i2"></div>
+                        <div class="texts">
+                            <h4><span>[아샤x마이클코어스]</span> 사가 시그니처 볼로 백 ▶</h4>
+                            <h4>490,000원</h4>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="image i3"></div>
+                        <div class="texts">
+                            <h4><span>[아샤x마이클코어스]</span> 사가 시그니처 멀티 백 ▶</h4>
+                            <h4>790,000원</h4>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="image i4"></div>
+                        <div class="texts">
+                            <h4><span>[아샤x마이클코어스]</span> 사가 시그니처 멀티 백 ▶</h4>
+                            <h4>790,000원</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <i class="xi-angle-left"></i>
+                <i class="xi-angle-right"></i>
+            </div>
+        </div>
+    </div>
+    <!-- 컨텐츠3 -->
+    <div class="cntWrap">
+        <div class="content cnt03">
+            <div class="header">
+                <div class="image"></div>
+                <div class="texts">
+                    <h2>약간의 마법을 짜서</h2>
+                    <p><span>아샤 창립자 애슐리 시모네와 모야 앤스는 사려 깊은 디자인을 통해 문화적 이야기를 나누기를 희망합니다.</span> 사가 시그니처라고 불리는 이 패턴은 서아프리카 직조 직물의 전통에서 영감을 받아 마이클 코어스 로고 프린트에 대한 독특한 관점을 제공합니다.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="article">
+                    <div class="image i1"></div>
+                    <div class="texts"></div>
+                </div>
+                <div class="article">
+                    <div class="image i2"></div>
+                    <div class="texts"></div>
+                </div>
+                <div class="article">
+                    <div class="texts">
+                        <p>“<span>우리 브랜드는 탐험에 대한 찬사로, </span>우리는 남성과 여성에게 힘을 실어주며 실용적인 원칙에 기반을 둔 남녀 공통의 다기능 디자인을 통해 그들에게 자유를 주는 것을 목표로 하고 있습니다. ”</p>
+                        <h4>- 모야 앤스</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 풋터 -->
+    <div class="ftrWrap">
+        <div class="footer">
+            <div class="ftrTop">
+                <div class="ftrLeft">
+                    <div class="info">
+                        <h4><i class="xi-maker"></i><span>find a store</span></h4>
+                        <h4>온라인 고객센터 1522-9144</h4>
+                    </div>
+                </div>
+                <div class="ftrRight">
+                    <ul>
+                        <li>conpany</li>
+                        <li>마이클코어스 소개</li>
+                    </ul>
+                    <ul>
+                        <li>my page</li>
+                        <li>회원가입</li>
+                        <li>주문/배송조회</li>
+                        <li>위시리스트</li>
+                    </ul>
+                    <ul>
+                        <li>costomer service</li>
+                        <li>공지사항</li>
+                        <li>자주묻는질문</li>
+                        <li>문의히기</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ftrBtm">
+                <div class="image"><a href="./michaelkors_main.html"></a></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores eum corrupti fugiat totam, exercitationem reiciendis dolorum a facere aliquam explicabo cupiditate aliquid, modi dolorem vel odio obcaecati. Labore, quo.</p>
+                <div class="sns">
+                    <i class="xi-facebook-official"><a href="https://www.facebook.com/MichaelKors/"></a></i>
+                    <i class="xi-instagram"><a href="https://www.instagram.com/michaelkors/"></a></i>
+                    <i class="xi-twitter"><a href="https://twitter.com/michaelkors"></a></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
