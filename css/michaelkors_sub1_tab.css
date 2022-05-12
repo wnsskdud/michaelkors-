@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 div.mntWrap>div.menuTop{
     width: 90%;
     max-width: 700px;
@@ -74,81 +73,4 @@ div.ftrWrap>div.footer>div.ftrBtm>div.image{
 }
 div.ftrWrap>div.footer{
     padding: 40px 0px;
-=======
-div.mntWrap>div.menuTop{
-    width: 90%;
-    max-width: 700px;
-}
-div.hdrWrap>div.header{
-    width: 90%;
-    max-width: 700px;
-}
-div.hdrWrap>div.header>div.image{
-    width: calc(100% / 8 * 2.5);
-}
-div.hdrWrap>div.header>ul.nav{
-    width: calc(100% / 8 * 3.2);
-}
-div.hdrWrap>div.header>ul.nav>li{
-    margin-left: calc(100% / 3 * 0.4);
-}
-div.mainWrap>div.main{
-    width: 90%;
-    max-width: 700px;
-}
-div.mainWrap>div.main>div.image{
-    height: 480px;
-}
-div.cntWrap>div.content{
-    width: 90%;
-    max-width: 700px;
-}
-div.cntWrap>div.content>div.header>div.image{
-    width: calc(100% / 8 * 6);
-    margin: 0 auto;
-    float: none;
-}
-div.cntWrap>div.content>div.header>div.texts{
-    width: calc(100% / 8 * 6);
-    float: none;
-    padding-top: 40px;
-    padding-left: 0;
-    margin: 0 auto;
-}
-div.cntWrap>div.content>div.section>div.article{
-    width: calc(100% / 2 - 40px);
-    margin: 0px 20px;
-    margin-top: 40px;
-}
-div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(7){
-    display: none;
-}
-div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(7)~div.article{
-    margin-top: 40px;
-}
-div.cntWrap>div.content.cnt02>div.header>div.image{
-    float: none;
-}
-div.cntWrap>div.content.cnt02>div.section>div.article:nth-child(5){
-    display: none;
-}
-div.ftrWrap>div.footer{
-    width: 90%;
-    max-width: 700px;
-}
-div.ftrWrap>div.footer>div.ftrTop>div.ftrLeft>div.info{
-    display: none;
-}
-div.ftrWrap>div.footer>div.ftrTop>div.ftrRight{
-    display: none;
-}
-div.ftrWrap>div.footer>div.ftrBtm{
-    margin-top: 0;
-}
-div.ftrWrap>div.footer>div.ftrBtm>div.image{
-    width: calc(100% / 8 * 2.5);
-}
-div.ftrWrap>div.footer{
-    padding: 40px 0px;
->>>>>>> 7839adb27e9f6d4e360128162e6d51334055d781
 }
