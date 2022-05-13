@@ -31,10 +31,10 @@ div.mainWrap>div.main>div.texts{
     margin-top: -220px;
 }
 div.mainWrap>div.main>div.texts>p{
-    width: calc(100% / 8 * 4.5);
+    width: calc(100% / 8 * 5);
 }
 div.mainWrap>div.main>div.texts>div.btn{
-    width: calc(100% / 8);
+    width: max(calc(100% / 8),88px);
     line-height: 20px;
     font-size: 12px;
 }
