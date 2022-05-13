@@ -14,4 +14,12 @@ $(function(){
             scrollTop: 2700
         },700);
     });
+    // var loc = [];
+    // for(var i = 0; i < $('body>div').length; i++){
+    //     loc[i] = $$('body>div').eq(i).offset().top;
+    // }
+    // btn.find('li:first').click(function(){
+    //     ind = $(this).index();
+    //     $('html').animate({scrollTop:loc[ind]})
+    // });
 });

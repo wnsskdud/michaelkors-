@@ -126,9 +126,10 @@ div.cntWrap>div.content.cnt01>div.section>div.artGroup>div.article>div.texts>div
     line-height: 20px;
 }
 div.cntWrap>div.content.cnt01>div.btn{
-    width: 116%;
-    left: -8%;
     bottom: 160px;
+    width: 114%;
+    left: -7%;
+    z-index: 5;
 }
 div.cntWrap>div.content.cnt02>div.header{
     height: 200px;
@@ -160,13 +161,11 @@ div.cntWrap>div.content.cnt02>div.section>div.article::after{
 }
 div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
     height: 160px;
-    width: calc(100% / 2 - 20px);
-    margin: 0 auto;
+    width: calc(100% / 2 - 10px);
     float: left;
 }
 div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
-    width: calc(100% / 2 - 20px);
-    margin: 0 auto;
+    width: calc(100% / 2 + 10px);
     float: left;
     margin-top: 60px;
 }
