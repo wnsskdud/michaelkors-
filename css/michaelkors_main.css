@@ -196,6 +196,9 @@ div.mainWrap>div.main>div.texts>p{
     font-size: 18px;
     line-height: 40px;
 }
+div.mainWrap>div.main>div.texts>div.btn:hover{
+    background-color: #927e9c;
+}
 div.mainWrap>div.main>div.texts>div.btn{
     font-size: 18px;
     line-height: 40px;
@@ -206,6 +209,7 @@ div.mainWrap>div.main>div.texts>div.btn{
     background-color: #ad9db5;
     border: 1px solid #927e9c;
     border-radius: 20px;
+    transition: background-color 0.3s;
 }
 div.mainWrap>div.main>div.image.i1{
     width: calc(100% / 12 * 5);
@@ -249,6 +253,7 @@ div.cntWrap>div.content>div.header div.btn{
     text-align: center;
     outline: 1px solid #666;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 div.cntWrap>div.content>div.section{
     margin-top: 80px;
@@ -608,6 +613,11 @@ div.bnrWrap>div.banner>p{
     width: calc(100% / 12 * 4);
     margin: 0 auto;
     margin-top: 20px;
+}
+div.bnrWrap>div.banner>div.btn:hover{
+    background-color: #fff;
+    color: #000;
+    opacity: 70%;
 }
 div.bnrWrap>div.banner>div.btn{
     font-size: 13px;
