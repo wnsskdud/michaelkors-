@@ -1,9 +1,9 @@
 $(function(){
     var btn = $('.cnt01>div.btn');
     var artGroup = $('.artGroup');
-    var wd = $(window).width();
     var mvLeft = 0;
     var mvRight = 0;
+    var wd = $(window).width();
 
     if(wd > 1024){
         mvLeft = 25;
