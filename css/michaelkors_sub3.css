@@ -371,7 +371,9 @@ div.ftrWrap>div.footer>div.ftrBtm>div.sns{
     margin-top: 30px;
     font-size: 30px;
 }
-div.ftrWrap>div.footer>div.ftrBtm>div.sns>i{}
+div.ftrWrap>div.footer>div.ftrBtm>div.sns>i{
+    cursor: pointer;
+}
 
 
 

@@ -706,11 +706,5 @@ div.ftrWrap>div.footer>div.ftrBtm>div.sns{
     font-size: 30px;
 }
 div.ftrWrap>div.footer>div.ftrBtm>div.sns>i{
-    width: 30px;
-    height: 30px;
+    cursor: pointer;
 }
-/* div.ftrWrap>div.footer>div.ftrBtm>div.sns>i>a{
-    width: 100%;
-    height: 100%;
-    display: block;
-} */
